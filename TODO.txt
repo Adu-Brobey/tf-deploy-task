@@ -1,13 +1,13 @@
 # Infrastructure & Code Improvements
 
-## ✅ Completed Improvements:
+## Completed Improvements:
 1. Consolidated duplicate dev/prod configurations
 2. Implemented DRY code using count and variables
 3. Added environment-aware configurations
 4. Enhanced security groups
 5. Added comprehensive documentation
 
-## 🚀 Recommended Improvements:
+## Recommended Improvements:
 
 ### 1. High Availability:
 - Implement Application Load Balancer
@@ -38,7 +38,7 @@
 - Use reserved instances for production
 - Budget alerts
 
-## 📋 Priority Order:
+## Priority Order:
 1. Remote state backend
 2. Load Balancer + Auto Scaling
 3. Private subnets + NAT
