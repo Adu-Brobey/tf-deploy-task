@@ -1,0 +1,16 @@
+# Example variables - copy to terraform.tfvars (which is gitignored)
+
+environment = "dev"
+aws_region  = "eu-west-2"
+instance_count = 3
+ami_id = "ami-0500f74cc2b89fb6b"
+vpc_cidr = "10.0.0.0/24"
+subnet_cidr = "10.0.0.0/28"
+availability_zone = "eu-west-2c"
+
+tags = {
+  Project     = "WebApp"
+  ManagedBy   = "Terraform"
+  Environment = "dev"
+  Owner       = "YourTeam"
+}
